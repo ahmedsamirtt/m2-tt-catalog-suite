@@ -1,11 +1,11 @@
 {
     "name": "twentytoo/catalog-suite-services",
-    "description": "Here you can find the catalog ",
+    "description": "A suite of services for managing catalogs in Magento 2, including similarity comparison, automatic tagging, image search, and text search.",
     "type": "magento2-module",
     "version": "1.0.0",
     "require": {
-        "php": "~7.0|~7.1|~7.2|~7.3|~7.4|^8.0",
-        "magento/framework": "^100|^101|^102|^103|^104|^105|^106",
+        "php": "^7.0|^8.0",
+        "magento/framework": "^104|^105|^106",
         "twentytoo/similarity": "^1.0",
         "twentytoo/autotag": "^1.0",
         "twentytoo/imagesearch": "^1.0",
@@ -14,10 +14,7 @@
     "autoload": {
         "psr-4": {
             "twentytoo\\catalog-suite-services\\": ""
-        },
-        "files": [
-            "registration.php"
-        ]
+        }
     },
     "extra": {
         "map": [
