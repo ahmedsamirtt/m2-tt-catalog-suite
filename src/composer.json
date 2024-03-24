@@ -1,0 +1,18 @@
+{
+    "name": "twentytoo/similarity-api",
+    "description": "A package to interact with the Similarity API.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ahmedsamir",
+            "email": "ahmed.samir@twentytoo.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "TwentyToo\\Similarity\\": "src/"
+        }
+    }
+}
