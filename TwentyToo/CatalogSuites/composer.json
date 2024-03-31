@@ -1,6 +1,6 @@
 {
     "name": "twentytoo/catalog-suites",
-    "description": "A twentytoo pacakge that helps on autotag-textsearch-similarity-imagesearch.",
+    "description": "A twentytoo package that helps on autotag-textsearch-similarity-imagesearch.",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -11,7 +11,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "": "src/"
+            "TwentyToo\\CatalogSuites\\AutoTag\\": "TwentyToo/CatalogSuites/AutoTag/src/",
+            "files": ["registeration.php"]
         }
     },
     "version": "1.0.3",

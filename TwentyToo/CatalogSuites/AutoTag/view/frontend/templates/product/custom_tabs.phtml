@@ -1,0 +1,13 @@
+<div class="product-custom-tabs">
+    <?php $customAttributes = $block->getCustomAttributes(); ?>
+    <ul class="tabs">
+        <?php foreach ($customAttributes as $label => $value): ?>
+            <li><a href="#"><?php echo $label; ?></a></li>
+        <?php endforeach; ?>
+    </ul>
+    <div class="tab-content">
+        <?php foreach ($customAttributes as $label => $value): ?>
+            <div class="tab-pane"><?php echo $value; ?></div>
+        <?php endforeach; ?>
+    </div>
+</div>
