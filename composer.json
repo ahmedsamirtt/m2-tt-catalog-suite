@@ -11,10 +11,11 @@
     ],
     "autoload": {
         "psr-4": {
-            "TwentyToo\\CatalogSuites\\AutoTag\\": "TwentyToo/CatalogSuites/AutoTag/src/",
-            "files": ["registeration.php"]
-        }
-    },
-    "version": "1.0.5",
+            "TwentyToo\\CatalogSuites\\AutoTag\\": "TwentyToo/CatalogSuites/AutoTag/src/"
+        },
+        "files": ["registration.php"]
+    }
+    ,
+    "version": "1.0.6",
     "minimum-stability": "stable"
 }
