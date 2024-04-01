@@ -1,7 +1,7 @@
 {
     "name": "twentytoo/catalog-suites",
     "description": "A twentytoo package that helps on autotag-textsearch-similarity-imagesearch.",
-    "type": "library",
+    "type": "magento2-module",
     "license": "MIT",
     "authors": [
         {
@@ -10,12 +10,14 @@
         }
     ],
     "autoload": {
+        "files": [
+            "registration.php"
+        ],
         "psr-4": {
-            "TwentyToo\\CatalogSuites\\AutoTag\\": "TwentyToo/CatalogSuites/AutoTag/src/"
-        },
-        "files": ["registration.php"]
+            "TwentyToo\\CatalogSuites\\": ""
+        }
     }
     ,
-    "version": "1.0.8",
+    "version": "1.0.9",
     "minimum-stability": "stable"
 }
