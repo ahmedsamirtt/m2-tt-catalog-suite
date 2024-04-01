@@ -1,11 +1,9 @@
 <?php
-namespace TwentyToo\CatalogSuites\AutoTag\Block\Product;
+namespace TwentyToo\CatalogSuites\Block;
 
-use Magento\Catalog\Block\Product\View\Attributes;
-
-class CustomTabs extends Attributes
+class CustomTab extends \Magento\Framework\View\Element\Template
 {
-    public function getCustomAttributes()
+    public function getStaticContent()
     {
         return [
             "Color" => "Black And White",

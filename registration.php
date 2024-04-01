@@ -1,6 +1,8 @@
 <?php
-\Magento\Framework\Component\ComponentRegistrar::register(
-    \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'TwentyToo_CatalogSuites_AutoTag',
+use \Magento\Framework\Component\ComponentRegistrar;
+
+ComponentRegistrar::register(
+    ComponentRegistrar::MODULE,
+    'TwentyToo_CatalogSuites',
     __DIR__
 );

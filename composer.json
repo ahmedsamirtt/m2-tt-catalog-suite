@@ -10,14 +10,11 @@
         }
     ],
     "autoload": {
-        "files": [
-            "registration.php"
-        ],
         "psr-4": {
             "TwentyToo\\CatalogSuites\\": ""
         }
     }
     ,
-    "version": "1.0.10",
+    "version": "1.0.11",
     "minimum-stability": "stable"
 }

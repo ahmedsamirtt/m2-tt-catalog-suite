@@ -1,0 +1,8 @@
+<div class="custom-tab">
+    <h2><?php echo $block->escapeHtml(__('Product Details')); ?></h2>
+    <ul>
+        <?php foreach ($block->getStaticContent() as $label => $value): ?>
+            <li><strong><?php echo $block->escapeHtml(__($label)); ?>:</strong> <?php echo $block->escapeHtml(__($value)); ?></li>
+        <?php endforeach; ?>
+    </ul>
+</div>
