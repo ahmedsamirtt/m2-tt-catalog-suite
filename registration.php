@@ -1,8 +1,6 @@
 <?php
-use \Magento\Framework\Component\ComponentRegistrar;
-
-ComponentRegistrar::register(
-    ComponentRegistrar::MODULE,
-    'TwentyToo_CatalogSuites',
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::MODULE,
+    'Twentytoo_CustomTab',
     __DIR__
 );
