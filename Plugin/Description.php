@@ -1,7 +1,7 @@
 <?php
-namespace Twentytoo\CustomTab\Plugin;
+namespace Twentytoo\Plugin;
  
-use Twentytoo\CustomTab\Model\TabConfig;
+use Twentytoo\Model\TabConfig;
  
 class Description
 {

@@ -1,5 +1,5 @@
 <?php
-namespace Twentytoo\CustomTab\Observer;
+namespace Twentytoo\Observer;
 
 use Magento\Framework\Event\ObserverInterface;
 
@@ -11,7 +11,7 @@ class NewTab implements ObserverInterface
     protected $tabs;
 
     public function __construct(
-        \Twentytoo\CustomTab\Model\TabConfig $tabs
+        \Twentytoo\Model\TabConfig $tabs
     ) {
         $this->tabs = $tabs;
     }

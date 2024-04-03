@@ -1,5 +1,5 @@
 <?php
-namespace Twentytoo\CustomTab\Model;
+namespace Twentytoo\Model;
 
 class TabConfig
 {
