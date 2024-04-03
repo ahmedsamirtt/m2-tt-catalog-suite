@@ -1,18 +1,30 @@
 <?php
-namespace Twentytoo\Plugin;
+namespace TwentyToo\CustomTab\Plugin;
  
-use Twentytoo\Model\TabConfig;
+use TwentyToo\CustomTab\Model\TabConfig;
  
 class Description
 {
-    protected $tabs;
+    /**
+     * @var TabConfig $tabs
+     */
+    private $tabs;
  
+    /**
+     * Description constructor.
+     * @param TabConfig $tabs
+     */
     public function __construct(
         TabConfig $tabs
     ) {
         $this->tabs = $tabs;
     }
  
+    /**
+     * @param \Magento\Catalog\Block\Product\View\Details $subject
+     * @param array $result
+     * @return array
+     */
     public function afterGetGroupSortedChildNames(
         \Magento\Catalog\Block\Product\View\Details $subject,
         $result
